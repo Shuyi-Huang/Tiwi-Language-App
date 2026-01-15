@@ -1,7 +1,10 @@
 # Tiwi Language App
 
 
+
 📱 Tiwi Language Learning App — Introduction
+
+
 
 The Tiwi Language Learning App is an educational mobile application designed to support Tiwi language preservation and learning for primary school students and teachers in the Northern Territory.
 
@@ -19,7 +22,10 @@ The system uses Firebase for secure online storage of audio recordings and sente
 
 
 
+
+
 🎯 Main Features
+
 
 Two user roles
 
@@ -44,8 +50,13 @@ Games like Match Word strengthen memory and engagement
 
 
 
+
+
 🧭 How to Use the App
+
+
 1️⃣ Choose Your Role
+
 
 Open the app and select:
 
@@ -55,7 +66,11 @@ Each role has a dedicated interface.
 
 
 
+
+
 👩‍🏫 For Teachers
+
+
 
 Log in or register as a teacher
 
@@ -67,7 +82,11 @@ Save and manage learning content for students
 
 
 
+
+
 👧 For Students
+
+
 
 Log in or register as a student
 
@@ -80,7 +99,10 @@ Play interactive games to reinforce learning
 
 
 
+
 ⚙️ Technical: How to Run the App
+
+
 
 To run the Tiwi Language Learning App locally, follow these steps:
 
@@ -112,7 +134,10 @@ The app will be installed and launched automatically on your device.
 
 
 
+
 🌱 Educational Impact
+
+
 
 This app:
 
@@ -125,7 +150,10 @@ Bridges traditional language knowledge with modern technology.
 Encourages students to practise confidently both inside and outside the classroom.
 
 
+
+
 App features
+
 
 Student portal
 
