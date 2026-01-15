@@ -1,5 +1,132 @@
 # Tiwi Language App
 
+
+📱 Tiwi Language Learning App — Introduction
+
+The Tiwi Language Learning App is an educational mobile application designed to support Tiwi language preservation and learning for primary school students and teachers in the Northern Territory.
+
+
+The app focuses on practical language use by combining:
+
+- sentence creation,
+
+- voice recording, and
+
+- interactive learning games.
+
+It provides an engaging way for students to listen, repeat, and practise Tiwi sentences, while allowing teachers to create learning materials that suit classroom needs.
+The system uses Firebase for secure online storage of audio recordings and sentence data.
+
+
+
+🎯 Main Features
+
+Two user roles
+
+Teacher: creates and records learning content
+
+Student: practises and plays learning games
+
+Add & Record Sentences
+
+Teachers enter sentences in text
+
+Record audio pronunciation
+
+All data is stored in the cloud
+
+Interactive Learning
+
+Students learn through listening and repeating
+
+Games like Match Word strengthen memory and engagement
+
+
+
+
+🧭 How to Use the App
+1️⃣ Choose Your Role
+
+Open the app and select:
+
+Teacher or Student
+
+Each role has a dedicated interface.
+
+
+
+👩‍🏫 For Teachers
+
+Log in or register as a teacher
+
+Add new sentences in Tiwi
+
+Record pronunciation for each sentence
+
+Save and manage learning content for students
+
+
+
+👧 For Students
+
+Log in or register as a student
+
+Browse available learning materials
+
+Listen to recordings and practise speaking
+
+Play interactive games to reinforce learning
+
+
+
+
+⚙️ Technical: How to Run the App
+
+To run the Tiwi Language Learning App locally, follow these steps:
+
+Use Android Studio
+
+Open the project in Android Studio.
+
+
+
+Set Up a Device
+
+Connect a physical Android device via USB
+or
+
+Create and start an Android Emulator in Android Studio.
+
+
+
+Wait for Environment Setup
+
+Once everything is configured, Android Studio may take a few minutes to build the project for the first time.
+
+Run the App in Debug Mode
+
+Click Run ▶️ by choose Debug App.
+
+The app will be installed and launched automatically on your device.
+
+
+
+
+🌱 Educational Impact
+
+This app:
+
+Supports Tiwi language revitalisation.
+
+Makes learning more interactive and accessible.
+
+Bridges traditional language knowledge with modern technology.
+
+Encourages students to practise confidently both inside and outside the classroom.
+
+
+App features
+
 Student portal
 
 student welcome page
