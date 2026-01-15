@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultipleChoiceQuizActivity">
+
+    <TextView
+        android:id="@+id/tiwiPhraseTextView"
+        android:layout_width="322dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="96dp"
+        android:gravity="center"
+        android:text="Tiwi Phrase"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/optionButton1"
+        android:layout_width="343dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="16dp"
+        android:text="Option 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tiwiPhraseTextView" />
+
+    <Button
+        android:id="@+id/optionButton2"
+        android:layout_width="347dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:text="Option 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/optionButton1" />
+
+    <Button
+        android:id="@+id/optionButton3"
+        android:layout_width="340dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="16dp"
+        android:text="Option 3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/optionButton2" />
+
+    <ImageView
+        android:id="@+id/cowImageView"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="495dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="36dp"
+        android:contentDescription="Image of a platipus"
+        android:scaleType="fitCenter"
+        android:src="@drawable/perry"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <!-- Back Button: Add this to return to Student Dashboard -->
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_back_arrow"
+        android:contentDescription="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

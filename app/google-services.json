@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "828469382061",
+    "project_id": "learnguage2",
+    "storage_bucket": "learnguage2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828469382061:android:47057448ba3d157740ef24",
+        "android_client_info": {
+          "package_name": "com.example.week_5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrZ_GIwdVBeYeZz_PvXt4frba2ZKi6c7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

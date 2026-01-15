@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Learnguage</string>
+    <string-array name="userType">
+        <item>Admin</item>
+        <item>Manager</item>
+        <item>Customer</item>
+    </string-array>
+
+    <string name="listening_exercise_title">Listening Exercise</string>
+    <string name="audio_instruction">Hello</string>
+    <string name="play_button">Play</string>
+    <string name="pause_button">Pause</string>
+    <string name="stop_button">Stop</string>
+    <string name="audio_status">Status: Not Playing</string>
+    <string name="fish_image_desc">A fish image</string>
+    <string name="back">Back</string>
+
+</resources>
+
+

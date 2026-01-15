@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditText">
+
+    <!-- Back Button -->
+
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:layout_marginLeft="16dp"
+        android:contentDescription="Back Button"
+        android:src="@drawable/ic_back_arrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/searchEnglishWord"
+        android:layout_width="283dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:hint="Search English Word"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="96dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:text="Search"
+        app:layout_constraintLeft_toRightOf="@id/searchEnglishWord"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/newEnglishWord"
+        android:layout_width="356dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:hint="New English Word"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchEnglishWord"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <EditText
+        android:id="@+id/newTiwiWord"
+        android:layout_width="348dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:hint="New Tiwi Word"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/newEnglishWord"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="157dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:text="Update Word"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/newTiwiWord" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

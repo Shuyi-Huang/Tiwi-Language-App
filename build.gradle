@@ -1,0 +1,22 @@
+// Add the buildscript block before the plugins block
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Google Services plugin for Firebase
+        classpath 'com.google.gms:google-services:4.3.10'  // Updated version for Firebase
+    }
+}
+
+// Now the plugins block
+plugins {
+    id 'com.android.application' version '8.5.1' apply false
+    id 'com.android.library' version '8.5.1' apply false
+    id 'com.google.gms.google-services' version '4.4.2' apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

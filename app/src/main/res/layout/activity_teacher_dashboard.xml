@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherDashboard">
+
+    <!-- Back Button: Add this to return to MainActivity -->
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/ic_back_arrow"
+        android:contentDescription="@string/back"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <!-- Add Text Button -->
+    <Button
+        android:id="@+id/addTextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:text="Add Text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <!-- Edit Text Button -->
+    <Button
+        android:id="@+id/editTextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Edit Text"
+        app:layout_constraintTop_toBottomOf="@id/addTextButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <!-- View Words Button -->
+    <Button
+        android:id="@+id/viewWordsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="View Words"
+        app:layout_constraintTop_toBottomOf="@id/editTextButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <!-- Record Sentence Button -->
+    <Button
+        android:id="@+id/recordVoiceButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Record Sentence"
+        app:layout_constraintTop_toBottomOf="@id/viewWordsButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintWidth_percent="0.8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

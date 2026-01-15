@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Heading Text for clarity -->
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Word List"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <!-- ListView to display the words from Excel -->
+    <ListView
+        android:id="@+id/wordsListView"
+        android:layout_width="match_parent"
+        android:layout_height="594dp"
+        android:dividerHeight="1dp"
+        android:padding="8dp" />
+
+    <!-- Back button at the bottom left -->
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="start"
+        android:contentDescription="Back"
+        android:padding="8dp"
+        android:src="@drawable/ic_back_arrow" />
+
+</LinearLayout>

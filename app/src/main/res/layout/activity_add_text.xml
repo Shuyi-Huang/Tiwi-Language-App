@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddText">
+
+    <EditText
+        android:id="@+id/englishWordEditText"
+        android:layout_width="337dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="120dp"
+        android:hint="Enter English Word"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <EditText
+        android:id="@+id/tiwiWordEditText"
+        android:layout_width="329dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Tiwi Word"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/englishWordEditText"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="122dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:text="Add Word"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tiwiWordEditText" />
+
+    <!-- Back Button to return to TeacherDashboard -->
+    <ImageView
+        android:id="@+id/back_button"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_back_arrow"
+        android:contentDescription="@string/back"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
